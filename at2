@@ -1,0 +1,5 @@
+var PrimeiraNota = Number(prompt("Digite primeira nota: "));
+var SegundaNota = Number(prompt("Digite segunda nota: "));
+var TerceiraNota = Number(prompt("Digite terceira nota: "));
+
+alert ((PrimeiraNota + SegundaNota + TerceiraNota) /3);
