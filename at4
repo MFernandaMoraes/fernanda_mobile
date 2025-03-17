@@ -1,0 +1,19 @@
+var numero = Number(prompt("Digite o número: "));
+
+let total = 0;
+
+for(let i=1; i<numero; i++){
+    if(numero % i == 0){
+        console.log("index", i);
+        total +=i
+
+    }
+}
+
+if(total == numero){
+    alert("É um número perfeito");
+
+} else{
+    alert("Não é um número perfeito");
+
+}
