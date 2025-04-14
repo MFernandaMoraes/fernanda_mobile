@@ -1,9 +1,9 @@
-var nome = prompt("Digite seu nome: ");
-var email = prompt("Digite seu email: ");
-var idade = prompt("Digite sua idade: ");
+var nome = prompt ( "Digite seu nome: " );
+var email = prompt ( "Digite seu email: " );
+var idade = prompt ( "Digite sua idade: " );
 
-console.log(nome);
-console.log(email);
-console.log(idade);
+console.log ( nome );
+console.log ( email );
+console.log ( idade );
 
-alert("Obrigado!");
+alert ( "Obrigado!" );
